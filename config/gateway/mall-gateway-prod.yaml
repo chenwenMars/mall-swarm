@@ -13,3 +13,40 @@ logging:
     com.macro.mall: info
 logstash:
   host: logstash
+
+# 启动快照：修改以下规则后重启网关。初始值仅供联调，生产阈值需压测确认。
+mall:
+  gateway:
+    protection:
+      namespace: ${spring.application.name}:prod
+      redis-timeout: 1s
+      routes:
+        mall-auth: &gateway-policy
+          rate-limit:
+            enabled: true
+            replenish-rate: 100
+            burst-capacity: 200
+            requested-tokens: 1
+          degradation-enabled: true
+          circuit-breaker: &gateway-breaker
+            enabled: true
+            sliding-window-size: 20
+            minimum-number-of-calls: 10
+            failure-rate-threshold: 50
+            wait-duration-in-open-state: 10s
+            permitted-number-of-calls-in-half-open-state: 3
+            timeout: 5s
+        mall-admin:
+          <<: *gateway-policy
+          circuit-breaker:
+            <<: *gateway-breaker
+            timeout: 30s
+        mall-portal:
+          <<: *gateway-policy
+        mall-search:
+          <<: *gateway-policy
+          circuit-breaker:
+            <<: *gateway-breaker
+            timeout: 30s
+        mall-demo:
+          <<: *gateway-policy

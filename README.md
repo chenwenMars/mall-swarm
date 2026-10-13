@@ -66,6 +66,8 @@ mall
 └── config -- 配置中心存储的配置
 ```
 
+网关限流、熔断、降级的配置、验证与发布步骤见 [网关保护说明](./document/reference/gateway_protection.md)。
+
 ## 技术选型
 
 ### 后端技术
