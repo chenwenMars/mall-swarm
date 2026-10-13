@@ -1,6 +1,7 @@
 package com.macro.mall.support;
 
 import java.io.IOException;
+import java.net.ConnectException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
@@ -30,16 +31,18 @@ public final class TestRedisServer implements AutoCloseable {
                 "--save", "", "--appendonly", "no")
                 .redirectErrorStream(true).redirectOutput(log.toFile()).start();
         try {
-            await().atMost(Duration.ofSeconds(10)).untilAsserted(() -> {
-                assertThat(process.isAlive()).withFailMessage("Redis startup failed: %s", log).isTrue();
-                try (Socket socket = new Socket("127.0.0.1", port)) {
-                    socket.setSoTimeout(500);
-                    socket.getOutputStream().write("PING\r\n".getBytes(StandardCharsets.UTF_8));
-                    assertThat(new String(socket.getInputStream().readNBytes(7), StandardCharsets.UTF_8))
-                            .isEqualTo("+PONG\r\n");
-                }
-            });
-        } catch (RuntimeException | Error e) {
+            await().atMost(Duration.ofSeconds(10))
+                    .ignoreException(ConnectException.class)
+                    .untilAsserted(() -> {
+                        assertThat(process.isAlive()).withFailMessage("Redis startup failed: %s", log).isTrue();
+                        try (Socket socket = new Socket("127.0.0.1", port)) {
+                            socket.setSoTimeout(500);
+                            socket.getOutputStream().write("PING\r\n".getBytes(StandardCharsets.UTF_8));
+                            assertThat(new String(socket.getInputStream().readNBytes(7), StandardCharsets.UTF_8))
+                                    .isEqualTo("+PONG\r\n");
+                        }
+                    });
+        } catch (Exception | Error e) {
             close();
             throw e;
         }
