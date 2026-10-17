@@ -3630,7 +3630,7 @@
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="all_pms_product_operate_log" dataExternal="false" dataSource="document/sql/mall.sql:1616" dataTable="pms_product_operate_log" parent="group-pms" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_product_operate_log&#xa;未注明（DDL 无表注释）" vertex="1">
+        <mxCell id="all_pms_product_operate_log" dataExternal="false" dataSource="document/sql/mall.sql:1616" dataTable="pms_product_operate_log" parent="group-pms" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_product_operate_log&#xa;商品操作日志表" vertex="1">
           <mxGeometry height="362" width="440" x="976" y="1014" as="geometry" />
         </mxCell>
         <mxCell id="all_pms_product_operate_log__heading" parent="all_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
@@ -15097,7 +15097,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="domain-pms" name="02 · 商品中心">
-    <mxGraphModel dx="3271" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1488" pageHeight="3176" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1488" pageHeight="3176" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15108,10 +15108,10 @@
           <mxGeometry height="30" width="1448" x="20" y="91" as="geometry" />
         </mxCell>
         <mxCell id="domain-container" parent="1" style="swimlane;container=1;collapsible=0;pointerEvents=0;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;fontFamily=Arial;fontStyle=1;align=left;startSize=32;fontSize=18;spacingLeft=10;" value="商品中心 · 完整字段 · 主子表就近排列" vertex="1">
-          <mxGeometry height="4170" width="2970" x="-1250" y="490" as="geometry" />
+          <mxGeometry height="4470" width="2970" x="-1430" y="180" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product" dataExternal="false" dataSource="document/sql/mall.sql:1085" dataTable="pms_product" parent="domain-container" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_product&#xa;商品信息" vertex="1">
-          <mxGeometry height="1286" width="440" x="32" y="88" as="geometry" />
+          <mxGeometry height="1286" width="440" x="1120" y="88" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product__heading" parent="pms_pms_product" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
           <mxGeometry height="24" width="440" y="50" as="geometry" />
@@ -16245,10 +16245,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand" dataExternal="false" dataSource="document/sql/mall.sql:887" dataTable="pms_brand" parent="domain-container" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_brand&#xa;品牌表" vertex="1">
-          <mxGeometry height="354" width="440" x="976" y="88" as="geometry" />
+          <mxGeometry height="354" width="442" x="1840" y="80" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__heading" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="50" as="geometry" />
+          <mxGeometry height="24" width="442" y="50" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__heading_c1" parent="pms_pms_brand__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="字段名" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16256,17 +16256,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__heading_c2" parent="pms_pms_brand__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="类型" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__heading_c5" parent="pms_pms_brand__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="注释" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__id" dataDeclaration="bigint(20) NOT NULL AUTO_INCREMENT" dataField="id" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="74" as="geometry" />
+          <mxGeometry height="24" width="442" y="74" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__id_c1" parent="pms_pms_brand__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=26;whiteSpace=nowrap;" value="id" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16289,17 +16289,17 @@
           <mxGeometry height="2.25" width="1.5" x="15" y="6.75" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__id_c2" parent="pms_pms_brand__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="bigint(20)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__id_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_brand__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="记录ID" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__name" dataDeclaration="varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL" dataField="name" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="98" as="geometry" />
+          <mxGeometry height="24" width="442" y="98" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__name_c1" parent="pms_pms_brand__name" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="name" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16307,17 +16307,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__name_c2" parent="pms_pms_brand__name" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(64)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__name_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_brand__name" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="品牌名称" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__first_letter" dataDeclaration="varchar(8) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT &#39;首字母&#39;" dataField="first_letter" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="122" as="geometry" />
+          <mxGeometry height="24" width="442" y="122" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__first_letter_c1" parent="pms_pms_brand__first_letter" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="first_letter" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16325,17 +16325,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__first_letter_c2" parent="pms_pms_brand__first_letter" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(8)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__first_letter_c5" parent="pms_pms_brand__first_letter" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="首字母" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__sort" dataDeclaration="int(11) NULL DEFAULT NULL" dataField="sort" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="146" as="geometry" />
+          <mxGeometry height="24" width="442" y="146" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__sort_c1" parent="pms_pms_brand__sort" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="sort" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16343,17 +16343,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__sort_c2" parent="pms_pms_brand__sort" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(11)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__sort_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_brand__sort" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="排序值" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__factory_status" dataDeclaration="int(1) NULL DEFAULT NULL COMMENT &#39;是否为品牌制造商：0-&gt;不是；1-&gt;是&#39;" dataField="factory_status" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="40" width="440" y="170" as="geometry" />
+          <mxGeometry height="40" width="442" y="170" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__factory_status_c1" parent="pms_pms_brand__factory_status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="factory_status" vertex="1">
           <mxGeometry height="40" width="185" as="geometry">
@@ -16361,17 +16361,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__factory_status_c2" parent="pms_pms_brand__factory_status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(1)" vertex="1">
-          <mxGeometry height="40" width="95" x="185" as="geometry">
-            <mxRectangle height="40" width="95" as="alternateBounds" />
+          <mxGeometry height="40" width="97" x="185" as="geometry">
+            <mxRectangle height="40" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__factory_status_c5" parent="pms_pms_brand__factory_status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="是否为品牌制造商：0-&gt;不&#xa;是；1-&gt;是" vertex="1">
-          <mxGeometry height="40" width="160" x="280" as="geometry">
+          <mxGeometry height="40" width="160" x="282" as="geometry">
             <mxRectangle height="40" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__show_status" dataDeclaration="int(1) NULL DEFAULT NULL" dataField="show_status" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="210" as="geometry" />
+          <mxGeometry height="24" width="442" y="210" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__show_status_c1" parent="pms_pms_brand__show_status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="show_status" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16379,17 +16379,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__show_status_c2" parent="pms_pms_brand__show_status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(1)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__show_status_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_brand__show_status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="显示状态" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__product_count" dataDeclaration="int(11) NULL DEFAULT NULL COMMENT &#39;产品数量&#39;" dataField="product_count" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="234" as="geometry" />
+          <mxGeometry height="24" width="442" y="234" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__product_count_c1" parent="pms_pms_brand__product_count" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="product_count" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16397,17 +16397,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__product_count_c2" parent="pms_pms_brand__product_count" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(11)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__product_count_c5" parent="pms_pms_brand__product_count" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="产品数量" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__product_comment_count" dataDeclaration="int(11) NULL DEFAULT NULL COMMENT &#39;产品评论数量&#39;" dataField="product_comment_count" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="258" as="geometry" />
+          <mxGeometry height="24" width="442" y="258" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__product_comment_count_c1" parent="pms_pms_brand__product_comment_count" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="product_comment_count" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16415,17 +16415,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__product_comment_count_c2" parent="pms_pms_brand__product_comment_count" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(11)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__product_comment_count_c5" parent="pms_pms_brand__product_comment_count" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="产品评论数量" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__logo" dataDeclaration="varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT &#39;品牌logo&#39;" dataField="logo" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="282" as="geometry" />
+          <mxGeometry height="24" width="442" y="282" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__logo_c1" parent="pms_pms_brand__logo" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="logo" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16433,17 +16433,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__logo_c2" parent="pms_pms_brand__logo" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(255)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__logo_c5" parent="pms_pms_brand__logo" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="品牌logo" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__big_pic" dataDeclaration="varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT &#39;专区大图&#39;" dataField="big_pic" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="306" as="geometry" />
+          <mxGeometry height="24" width="442" y="306" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__big_pic_c1" parent="pms_pms_brand__big_pic" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="big_pic" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16451,17 +16451,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__big_pic_c2" parent="pms_pms_brand__big_pic" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(255)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__big_pic_c5" parent="pms_pms_brand__big_pic" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="专区大图" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__brand_story" dataDeclaration="text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT &#39;品牌故事&#39;" dataField="brand_story" parent="pms_pms_brand" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="330" as="geometry" />
+          <mxGeometry height="24" width="442" y="330" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_brand__brand_story_c1" parent="pms_pms_brand__brand_story" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="brand_story" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -16469,12 +16469,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__brand_story_c2" parent="pms_pms_brand__brand_story" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="text" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_brand__brand_story_c5" parent="pms_pms_brand__brand_story" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="品牌故事" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -17451,10 +17451,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template" dataExternal="false" dataSource="document/sql/mall.sql:968" dataTable="pms_feight_template" parent="domain-container" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_feight_template&#xa;运费模版" vertex="1">
-          <mxGeometry height="282" width="440" x="976" y="466" as="geometry" />
+          <mxGeometry height="282" width="442" x="1840" y="458" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__heading" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="50" as="geometry" />
+          <mxGeometry height="24" width="442" y="50" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__heading_c1" parent="pms_pms_feight_template__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="字段名" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17462,17 +17462,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__heading_c2" parent="pms_pms_feight_template__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="类型" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__heading_c5" parent="pms_pms_feight_template__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="注释" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__id" dataDeclaration="bigint(20) NOT NULL AUTO_INCREMENT" dataField="id" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="74" as="geometry" />
+          <mxGeometry height="24" width="442" y="74" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__id_c1" parent="pms_pms_feight_template__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=26;whiteSpace=nowrap;" value="id" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17495,17 +17495,17 @@
           <mxGeometry height="2.25" width="1.5" x="15" y="6.75" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__id_c2" parent="pms_pms_feight_template__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="bigint(20)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__id_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_feight_template__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="记录ID" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__name" dataDeclaration="varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL" dataField="name" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="98" as="geometry" />
+          <mxGeometry height="24" width="442" y="98" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__name_c1" parent="pms_pms_feight_template__name" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="name" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17513,17 +17513,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__name_c2" parent="pms_pms_feight_template__name" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(64)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__name_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_feight_template__name" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="运费模板名称" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__charge_type" dataDeclaration="int(1) NULL DEFAULT NULL COMMENT &#39;计费类型:0-&gt;按重量；1-&gt;按件数&#39;" dataField="charge_type" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="40" width="440" y="122" as="geometry" />
+          <mxGeometry height="40" width="442" y="122" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__charge_type_c1" parent="pms_pms_feight_template__charge_type" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="charge_type" vertex="1">
           <mxGeometry height="40" width="185" as="geometry">
@@ -17531,17 +17531,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__charge_type_c2" parent="pms_pms_feight_template__charge_type" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(1)" vertex="1">
-          <mxGeometry height="40" width="95" x="185" as="geometry">
-            <mxRectangle height="40" width="95" as="alternateBounds" />
+          <mxGeometry height="40" width="97" x="185" as="geometry">
+            <mxRectangle height="40" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__charge_type_c5" parent="pms_pms_feight_template__charge_type" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="计费类型:0-&gt;按重量；1-&gt;&#xa;按件数" vertex="1">
-          <mxGeometry height="40" width="160" x="280" as="geometry">
+          <mxGeometry height="40" width="160" x="282" as="geometry">
             <mxRectangle height="40" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_weight" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL COMMENT &#39;首重kg&#39;" dataField="first_weight" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="162" as="geometry" />
+          <mxGeometry height="24" width="442" y="162" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_weight_c1" parent="pms_pms_feight_template__first_weight" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="first_weight" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17549,17 +17549,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_weight_c2" parent="pms_pms_feight_template__first_weight" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_weight_c5" parent="pms_pms_feight_template__first_weight" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="首重kg" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_fee" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL COMMENT &#39;首费（元）&#39;" dataField="first_fee" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="186" as="geometry" />
+          <mxGeometry height="24" width="442" y="186" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_fee_c1" parent="pms_pms_feight_template__first_fee" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="first_fee" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17567,17 +17567,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_fee_c2" parent="pms_pms_feight_template__first_fee" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__first_fee_c5" parent="pms_pms_feight_template__first_fee" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="首费（元）" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__continue_weight" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL" dataField="continue_weight" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="210" as="geometry" />
+          <mxGeometry height="24" width="442" y="210" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__continue_weight_c1" parent="pms_pms_feight_template__continue_weight" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="continue_weight" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17585,17 +17585,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__continue_weight_c2" parent="pms_pms_feight_template__continue_weight" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__continue_weight_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_feight_template__continue_weight" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="续重重量（kg）" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__continme_fee" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL" dataField="continme_fee" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="234" as="geometry" />
+          <mxGeometry height="24" width="442" y="234" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__continme_fee_c1" parent="pms_pms_feight_template__continme_fee" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="continme_fee" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17603,17 +17603,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__continme_fee_c2" parent="pms_pms_feight_template__continme_fee" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__continme_fee_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_feight_template__continme_fee" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="续重运费（元）" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__dest" dataDeclaration="varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT &#39;目的地（省、市）&#39;" dataField="dest" parent="pms_pms_feight_template" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="258" as="geometry" />
+          <mxGeometry height="24" width="442" y="258" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_feight_template__dest_c1" parent="pms_pms_feight_template__dest" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="dest" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -17621,12 +17621,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__dest_c2" parent="pms_pms_feight_template__dest" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(255)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_feight_template__dest_c5" parent="pms_pms_feight_template__dest" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="目的地（省、市）" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18189,10 +18189,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record" dataExternal="false" dataSource="document/sql/mall.sql:1640" dataTable="pms_product_vertify_record" parent="domain-container" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_product_vertify_record&#xa;商品审核记录" vertex="1">
-          <mxGeometry height="218" width="440" x="976" y="772" as="geometry" />
+          <mxGeometry height="218" width="442" x="20" y="250" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__heading" parent="pms_pms_product_vertify_record" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="50" as="geometry" />
+          <mxGeometry height="24" width="442" y="50" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__heading_c1" parent="pms_pms_product_vertify_record__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="字段名" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18200,17 +18200,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__heading_c2" parent="pms_pms_product_vertify_record__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="类型" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__heading_c5" parent="pms_pms_product_vertify_record__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="注释" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__id" dataDeclaration="bigint(20) NOT NULL AUTO_INCREMENT" dataField="id" parent="pms_pms_product_vertify_record" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="74" as="geometry" />
+          <mxGeometry height="24" width="442" y="74" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__id_c1" parent="pms_pms_product_vertify_record__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=26;whiteSpace=nowrap;" value="id" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18233,17 +18233,17 @@
           <mxGeometry height="2.25" width="1.5" x="15" y="6.75" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__id_c2" parent="pms_pms_product_vertify_record__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="bigint(20)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__id_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_vertify_record__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="记录ID" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__product_id" dataDeclaration="bigint(20) NULL DEFAULT NULL" dataField="product_id" parent="pms_pms_product_vertify_record" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="98" as="geometry" />
+          <mxGeometry height="24" width="442" y="98" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__product_id_c1" parent="pms_pms_product_vertify_record__product_id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="product_id" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18251,17 +18251,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__product_id_c2" parent="pms_pms_product_vertify_record__product_id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="bigint(20)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__product_id_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_vertify_record__product_id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="商品ID" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__create_time" dataDeclaration="datetime NULL DEFAULT NULL" dataField="create_time" parent="pms_pms_product_vertify_record" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="122" as="geometry" />
+          <mxGeometry height="24" width="442" y="122" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__create_time_c1" parent="pms_pms_product_vertify_record__create_time" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="create_time" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18269,17 +18269,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__create_time_c2" parent="pms_pms_product_vertify_record__create_time" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="datetime" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__create_time_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_vertify_record__create_time" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="审核记录创建时间" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__vertify_man" dataDeclaration="varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT &#39;审核人&#39;" dataField="vertify_man" parent="pms_pms_product_vertify_record" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="146" as="geometry" />
+          <mxGeometry height="24" width="442" y="146" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__vertify_man_c1" parent="pms_pms_product_vertify_record__vertify_man" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="vertify_man" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18287,17 +18287,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__vertify_man_c2" parent="pms_pms_product_vertify_record__vertify_man" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(64)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__vertify_man_c5" parent="pms_pms_product_vertify_record__vertify_man" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="审核人" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__status" dataDeclaration="int(1) NULL DEFAULT NULL" dataField="status" parent="pms_pms_product_vertify_record" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="170" as="geometry" />
+          <mxGeometry height="24" width="442" y="170" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__status_c1" parent="pms_pms_product_vertify_record__status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="status" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18305,17 +18305,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__status_c2" parent="pms_pms_product_vertify_record__status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(1)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__status_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_vertify_record__status" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="商品审核状态" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__detail" dataDeclaration="varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT &#39;反馈详情&#39;" dataField="detail" parent="pms_pms_product_vertify_record" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="194" as="geometry" />
+          <mxGeometry height="24" width="442" y="194" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__detail_c1" parent="pms_pms_product_vertify_record__detail" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="detail" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18323,12 +18323,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__detail_c2" parent="pms_pms_product_vertify_record__detail" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(255)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_vertify_record__detail_c5" parent="pms_pms_product_vertify_record__detail" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="反馈详情" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18566,11 +18566,11 @@
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pms_pms_product_operate_log" dataExternal="false" dataSource="document/sql/mall.sql:1616" dataTable="pms_product_operate_log" parent="domain-container" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_product_operate_log&#xa;未注明（DDL 无表注释）" vertex="1">
-          <mxGeometry height="362" width="440" x="976" y="1014" as="geometry" />
+        <mxCell id="pms_pms_product_operate_log" dataExternal="false" dataSource="document/sql/mall.sql:1616" dataTable="pms_product_operate_log" parent="domain-container" style="shape=table;container=1;collapsible=0;recursiveResize=0;childLayout=tableLayout;rowLines=0;columnLines=0;html=0;align=left;verticalAlign=top;fontFamily=Arial;fontStyle=1;fillColor=#EFF6FF;swimlaneFillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2;dashed=0;dashPattern=6 4;startSize=50;fontSize=14;spacingTop=5;spacingLeft=7;spacingRight=7;whiteSpace=nowrap;" value="pms_product_operate_log&#xa;商品操作日志表" vertex="1">
+          <mxGeometry height="362" width="442" x="20" y="492" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__heading" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="50" as="geometry" />
+          <mxGeometry height="24" width="442" y="50" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__heading_c1" parent="pms_pms_product_operate_log__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="字段名" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18578,17 +18578,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__heading_c2" parent="pms_pms_product_operate_log__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="类型" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__heading_c5" parent="pms_pms_product_operate_log__heading" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#EFF6FF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#475569;strokeWidth=1.5;" value="注释" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__id" dataDeclaration="bigint(20) NOT NULL AUTO_INCREMENT" dataField="id" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="74" as="geometry" />
+          <mxGeometry height="24" width="442" y="74" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__id_c1" parent="pms_pms_product_operate_log__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=1;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=26;whiteSpace=nowrap;" value="id" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18611,17 +18611,17 @@
           <mxGeometry height="2.25" width="1.5" x="15" y="6.75" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__id_c2" parent="pms_pms_product_operate_log__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="bigint(20)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__id_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#F8FAFC;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="记录ID" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__product_id" dataDeclaration="bigint(20) NULL DEFAULT NULL" dataField="product_id" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="98" as="geometry" />
+          <mxGeometry height="24" width="442" y="98" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__product_id_c1" parent="pms_pms_product_operate_log__product_id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="product_id" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18629,17 +18629,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__product_id_c2" parent="pms_pms_product_operate_log__product_id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="bigint(20)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__product_id_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__product_id" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="商品ID" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_old" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL" dataField="price_old" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="122" as="geometry" />
+          <mxGeometry height="24" width="442" y="122" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_old_c1" parent="pms_pms_product_operate_log__price_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="price_old" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18647,17 +18647,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_old_c2" parent="pms_pms_product_operate_log__price_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_old_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__price_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="变更前商品价格" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_new" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL" dataField="price_new" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="146" as="geometry" />
+          <mxGeometry height="24" width="442" y="146" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_new_c1" parent="pms_pms_product_operate_log__price_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="price_new" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18665,17 +18665,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_new_c2" parent="pms_pms_product_operate_log__price_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__price_new_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__price_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="变更后商品价格" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_old" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL" dataField="sale_price_old" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="170" as="geometry" />
+          <mxGeometry height="24" width="442" y="170" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_old_c1" parent="pms_pms_product_operate_log__sale_price_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="sale_price_old" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18683,17 +18683,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_old_c2" parent="pms_pms_product_operate_log__sale_price_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_old_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__sale_price_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="变更前销售价格" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_new" dataDeclaration="decimal(10, 2) NULL DEFAULT NULL" dataField="sale_price_new" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="194" as="geometry" />
+          <mxGeometry height="24" width="442" y="194" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_new_c1" parent="pms_pms_product_operate_log__sale_price_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="sale_price_new" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18701,17 +18701,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_new_c2" parent="pms_pms_product_operate_log__sale_price_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="decimal(10, 2)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__sale_price_new_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__sale_price_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="变更后销售价格" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_old" dataDeclaration="int(11) NULL DEFAULT NULL COMMENT &#39;赠送的积分&#39;" dataField="gift_point_old" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="218" as="geometry" />
+          <mxGeometry height="24" width="442" y="218" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_old_c1" parent="pms_pms_product_operate_log__gift_point_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="gift_point_old" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18719,17 +18719,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_old_c2" parent="pms_pms_product_operate_log__gift_point_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(11)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_old_c5" parent="pms_pms_product_operate_log__gift_point_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="赠送的积分" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_new" dataDeclaration="int(11) NULL DEFAULT NULL" dataField="gift_point_new" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="242" as="geometry" />
+          <mxGeometry height="24" width="442" y="242" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_new_c1" parent="pms_pms_product_operate_log__gift_point_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="gift_point_new" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18737,17 +18737,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_new_c2" parent="pms_pms_product_operate_log__gift_point_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(11)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__gift_point_new_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__gift_point_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="变更后赠送积分" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_old" dataDeclaration="int(11) NULL DEFAULT NULL" dataField="use_point_limit_old" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="266" as="geometry" />
+          <mxGeometry height="24" width="442" y="266" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_old_c1" parent="pms_pms_product_operate_log__use_point_limit_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="use_point_limit_old" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18755,17 +18755,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_old_c2" parent="pms_pms_product_operate_log__use_point_limit_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(11)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_old_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__use_point_limit_old" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="变更前积分抵扣上限" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_new" dataDeclaration="int(11) NULL DEFAULT NULL" dataField="use_point_limit_new" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="290" as="geometry" />
+          <mxGeometry height="24" width="442" y="290" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_new_c1" parent="pms_pms_product_operate_log__use_point_limit_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="use_point_limit_new" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18773,17 +18773,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_new_c2" parent="pms_pms_product_operate_log__use_point_limit_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="int(11)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__use_point_limit_new_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__use_point_limit_new" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="变更后积分抵扣上限" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__operate_man" dataDeclaration="varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT &#39;操作人&#39;" dataField="operate_man" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="314" as="geometry" />
+          <mxGeometry height="24" width="442" y="314" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__operate_man_c1" parent="pms_pms_product_operate_log__operate_man" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="operate_man" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18791,17 +18791,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__operate_man_c2" parent="pms_pms_product_operate_log__operate_man" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="varchar(64)" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__operate_man_c5" parent="pms_pms_product_operate_log__operate_man" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="操作人" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__create_time" dataDeclaration="datetime NULL DEFAULT NULL" dataField="create_time" parent="pms_pms_product_operate_log" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;strokeColor=none;collapsible=0;dropTarget=0;portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="24" width="440" y="338" as="geometry" />
+          <mxGeometry height="24" width="442" y="338" as="geometry" />
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__create_time_c1" parent="pms_pms_product_operate_log__create_time" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingRight=5;strokeColor=#64748B;strokeWidth=1.2;spacingLeft=6;whiteSpace=nowrap;" value="create_time" vertex="1">
           <mxGeometry height="24" width="185" as="geometry">
@@ -18809,12 +18809,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__create_time_c2" parent="pms_pms_product_operate_log__create_time" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="datetime" vertex="1">
-          <mxGeometry height="24" width="95" x="185" as="geometry">
-            <mxRectangle height="24" width="95" as="alternateBounds" />
+          <mxGeometry height="24" width="97" x="185" as="geometry">
+            <mxRectangle height="24" width="97" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pms_pms_product_operate_log__create_time_c5" dataCommentSource="领域释义补充，非原始DDL注释" parent="pms_pms_product_operate_log__create_time" style="shape=partialRectangle;top=0;bottom=1;left=0;right=1;html=0;overflow=hidden;connectable=0;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172033;fontStyle=0;fontSize=12;spacingLeft=5;spacingRight=5;whiteSpace=nowrap;strokeColor=#64748B;strokeWidth=1.2;" value="操作记录创建时间" vertex="1">
-          <mxGeometry height="24" width="160" x="280" as="geometry">
+          <mxGeometry height="24" width="160" x="282" as="geometry">
             <mxRectangle height="24" width="160" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18849,6 +18849,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t6mjCbT0KgefYGOg4MD--7" edge="1" parent="domain-container" source="pms_pms_comment__id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pms_pms_comment_replay__comment_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KYvmrjsbcZ_b1NNgiBG-1" edge="1" parent="domain-container" source="pms_pms_brand__id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pms_pms_product__id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KYvmrjsbcZ_b1NNgiBG-2" edge="1" parent="domain-container" source="pms_pms_feight_template__id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pms_pms_product__feight_template_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KYvmrjsbcZ_b1NNgiBG-3" edge="1" parent="domain-container" source="pms_pms_product__id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pms_pms_sku_stock__product_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KYvmrjsbcZ_b1NNgiBG-4" edge="1" parent="domain-container" source="pms_pms_product__id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pms_pms_member_price__id">
+          <mxGeometry relative="1" x="0.0147" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="170" />
+              <mxPoint x="1032" y="170" />
+              <mxPoint x="1032" y="536" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KYvmrjsbcZ_b1NNgiBG-6" edge="1" parent="domain-container" source="pms_pms_product__id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="pms_pms_product_ladder__product_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KYvmrjsbcZ_b1NNgiBG-7" edge="1" parent="domain-container" source="pms_pms_product__id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pms_pms_product_full_reduction__product_id">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="legend-icon-primary" dataIcon="primary" parent="1" style="group;connectable=0;resizable=0;pointerEvents=0;" value="" vertex="1">
@@ -18891,7 +18915,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="domain-oms" name="03 · 交易与售后">
-    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1488" pageHeight="2484" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1604" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1488" pageHeight="2484" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
